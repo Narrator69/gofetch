@@ -10,7 +10,7 @@ Simple http request library based on gorequest
 ```content, _ := gofetch.Fetch{}.Go("POST", "http://vk.com", []gofetch.Header{}, "query=delta")```
 
 #### With headers
-```content, _ := gofetch.Fetch{}.Go("GET", "http://vk.com", []gofetch.Header{{"Referer", "Banana"}}, "query=delta")```
+```content, _ := gofetch.Fetch{}.Go("GET", "http://vk.com", []gofetch.Header{{"Referer", "Banana"}}, "")```
 
 #### Minimalist
 ```content, _ := gofetch.Fetch{}.Go("GET", "http://vk.com", []gofetch.Header{}, "")```
